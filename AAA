@@ -1,0 +1,11 @@
+[--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+<command> [<args>]
+[root@ip-172-31-24-59 Akbar]# git config --global user.name "Akbarmomin"
+[root@ip-172-31-24-59 Akbar]# git config --global user.email "mohdakbarmomin@gmail.com"
+[root@ip-172-31-24-59 Akbar]# git config --global editor "vim"
+error: key does not contain a section: editor
+[root@ip-172-31-24-59 Akbar]# git config --global editor.name "vim"
+[root@ip-172-31-24-59 Akbar]# touch AAA
+[root@ip-172-31-24-59 Akbar]# touch BBB
+[root@ip-172-31-24-59 Akbar]# touch CCC
+[root@ip-172-31-24-59 Akbar]# touch DDD
